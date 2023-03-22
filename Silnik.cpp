@@ -12,7 +12,7 @@ Silnik::Silnik(){
 Silnik::~Silnik() {
 }
 
-void Silnik::FirstTbl() {
+void Silnik::Init() {
     // otwórz plik z danymi
     ifstream plik("C:\\Users\\Maciej\\IdeaProjects\\GameOfLife\\dane.in");
 
@@ -87,16 +87,3 @@ void Silnik::Analiza() {
     }
 }
 
-void Silnik::Init() {
-    for (int i = 0; i < Arr->GetNw(); i++) {
-        for (int j = 0; j < Arr->GetNk(); j++) {
-            if(Arr->GetKomorka(i,j)){
-                cout << "X";
-            }
-            else{
-                cout << " ";
-            }
-        }
-        cout << endl;
-    }
-}

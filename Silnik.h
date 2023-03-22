@@ -12,7 +12,6 @@ class Silnik {
 public:
     Silnik();
     ~Silnik();
-    void FirstTbl();
     void Init();
     void Analiza();
     Tablica& GetTablica();

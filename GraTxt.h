@@ -11,15 +11,11 @@
 
 class GraTxt : public Gra {
 public:
-    GraTxt(Silnik& silnik);
+    GraTxt();
     ~GraTxt();
     GraTxt(const GraTxt& other) = delete;
     GraTxt& operator=(const GraTxt& other) = delete;
-
-    virtual void View() const;
-private:
-    Silnik& m_silnik;
-    // inne pola klasy GraTxt
+    virtual void View();
 };
 
 

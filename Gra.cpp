@@ -1,10 +1,21 @@
 #include <unistd.h>
 #include "Silnik.h"
+#include "Gra.h"
 
 
 using namespace std;
 
 int main() {
+
+    system("pause");
+    return 0;
+}
+
+Tablica Gra::getArray() {
+    return *Arr;
+}
+
+void Gra::Play() {
     Silnik gra;
     gra.FirstTbl();
     gra.Init();
@@ -16,6 +27,4 @@ int main() {
         sleep(2);
         system("cls");
     }
-    system("pause");
-    return 0;
 }

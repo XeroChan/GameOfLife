@@ -6,16 +6,15 @@
 #define GOL_GRA_H
 
 
-class Gra {
-public:
-    virtual ~Gra();
-    Gra(const Gra& other) = delete;
-    Gra& operator=(const Gra& other) = delete;
+#include "Silnik.h"
 
-    virtual void View() const = 0;
-protected:
+class Gra : public Silnik{
+public:
     Gra();
-    // pola klasy Gra
+    ~Gra();
+    virtual void View() const = 0;
+    Tablica getArray();
+    void Play();
 };
 
 
