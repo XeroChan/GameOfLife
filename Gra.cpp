@@ -8,12 +8,12 @@ int main() {
     Silnik gra;
     gra.FirstTbl();
     gra.Init();
-    sleep(3);
+    sleep(2);
     system("cls");
     while(true){
         gra.Analiza();
         gra.Init();
-        sleep(3);
+        sleep(2);
         system("cls");
     }
     system("pause");
