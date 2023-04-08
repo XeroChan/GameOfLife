@@ -2,29 +2,32 @@
 #include "Silnik.h"
 #include "Gra.h"
 
-
-using namespace std;
-
-int main() {
-
-    system("pause");
-    return 0;
-}
-
-Tablica Gra::getArray() {
-    return *Arr;
-}
-
-void Gra::Play() {
+void Gra::play() {
     Silnik gra;
-    gra.FirstTbl();
     gra.Init();
+
+    Tablica* arr = gra.getArrPointer();
+    View(arr);
     sleep(2);
     system("cls");
+
     while(true){
         gra.Analiza();
-        gra.Init();
+        View(arr);
         sleep(2);
         system("cls");
     }
 }
+
+Gra::Gra() {
+
+}
+
+Gra::~Gra() {
+
+}
+
+void Gra::View(Tablica *) {
+
+}
+

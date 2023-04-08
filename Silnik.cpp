@@ -87,3 +87,7 @@ void Silnik::Analiza() {
     }
 }
 
+Tablica *Silnik::getArrPointer() {
+    return Arr;
+}
+

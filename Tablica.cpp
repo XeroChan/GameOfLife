@@ -20,8 +20,6 @@ Tablica::~Tablica() {
     delete[] m_tablica;
 }
 
-Tablica& Tablica::operator=(const Tablica& other) {}
-
 int Tablica::GetNw() const {
     return m_nw;
 }

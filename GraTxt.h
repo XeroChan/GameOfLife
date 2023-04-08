@@ -15,7 +15,7 @@ public:
     ~GraTxt();
     GraTxt(const GraTxt& other) = delete;
     GraTxt& operator=(const GraTxt& other) = delete;
-    virtual void View();
+    void View(Tablica*) override;
 };
 
 

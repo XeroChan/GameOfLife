@@ -10,8 +10,8 @@ class Tablica {
 public:
     Tablica(int nw, int nk);
     ~Tablica();
-    Tablica(const Tablica& other);
-    Tablica& operator=(const Tablica& other);
+    Tablica(const Tablica& other) = delete;
+    Tablica& operator=(const Tablica& other) = delete;
     int GetNw() const;
     int GetNk() const;
     bool GetKomorka(int wiersz, int kolumna) const;

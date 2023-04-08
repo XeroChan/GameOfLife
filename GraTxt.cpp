@@ -7,13 +7,13 @@
 
 using namespace std;
 
-void GraTxt::View() {
+void GraTxt::View(Tablica* Arr) {
     for (int i = 0; i < Arr->GetNw(); i++) {
         for (int j = 0; j < Arr->GetNk(); j++) {
-            if(Arr->GetKomorka(i,j)){
+            if (Arr->GetKomorka(i, j)) {
                 cout << "X";
             }
-            else{
+            else {
                 cout << " ";
             }
         }
@@ -21,6 +21,15 @@ void GraTxt::View() {
     }
 }
 
+GraTxt::GraTxt() {
+
+}
+
+GraTxt::~GraTxt() {
+
+}
+
 int main(){
-    Gra game;
+    GraTxt game;
+    game.play();
 }

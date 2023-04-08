@@ -12,9 +12,10 @@ class Gra : public Silnik{
 public:
     Gra();
     ~Gra();
-    virtual void View() const = 0;
-    Tablica getArray();
-    void Play();
+    Gra(const Gra& other) = delete;
+    Gra& operator=(const Gra& other) = delete;
+    virtual void View(Tablica*);
+    void play();
 };
 
 

@@ -12,9 +12,11 @@ class Silnik {
 public:
     Silnik();
     ~Silnik();
+    Silnik(const Silnik& other) = delete;
+    Silnik& operator=(const Silnik& other) = delete;
     void Init();
     void Analiza();
-    Tablica& GetTablica();
+    Tablica* getArrPointer();
 
 protected:
     Tablica *Arr,*Atmp;
