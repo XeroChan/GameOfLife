@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "D:/CLion 2022.3.2/bin/mingw/bin/g++.exe")
+set(CMAKE_CXX_COMPILER "D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "11.2.0")
@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "D:/CLion 2022.3.2/bin/mingw/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "D:/CLion 2022.3.2/bin/mingw/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "D:/CLion 2022.3.2/bin/mingw/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "D:/CLion 2022.3.2/bin/mingw/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "D:/CLion 2022.3.2/bin/mingw/bin/ld.exe")
+set(CMAKE_AR "D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;D:/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;D:/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;D:/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/CLion 2022.3.2/bin/mingw/include;D:/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/CLion 2022.3.2/bin/mingw/x86_64-w64-mingw32/include")
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/include;D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0;D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/lib/gcc;D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/x86_64-w64-mingw32/lib;D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/mingw/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
