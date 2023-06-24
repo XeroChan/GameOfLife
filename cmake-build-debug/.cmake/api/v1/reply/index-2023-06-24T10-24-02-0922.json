@@ -1,0 +1,108 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Ninja"
+		},
+		"paths" : 
+		{
+			"cmake" : "D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/bin/cmake.exe",
+			"cpack" : "D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/bin/cpack.exe",
+			"ctest" : "D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/bin/ctest.exe",
+			"root" : "D:/ToolBox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 25,
+			"patch" : 2,
+			"string" : "3.25.2",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-bf20c197a3407c897d54.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 4
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-43791d50c22e6682e16a.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "cmakeFiles-v1-b9b22e3b71618d300f07.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "toolchains-v1-470d836081ec8eadc58d.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"cache-v2" : 
+		{
+			"jsonFile" : "cache-v2-43791d50c22e6682e16a.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		"cmakeFiles-v1" : 
+		{
+			"jsonFile" : "cmakeFiles-v1-b9b22e3b71618d300f07.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		"codemodel-v2" : 
+		{
+			"jsonFile" : "codemodel-v2-bf20c197a3407c897d54.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 4
+			}
+		},
+		"toolchains-v1" : 
+		{
+			"jsonFile" : "toolchains-v1-470d836081ec8eadc58d.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	}
+}

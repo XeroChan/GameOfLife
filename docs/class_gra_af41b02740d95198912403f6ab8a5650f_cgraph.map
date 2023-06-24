@@ -1,0 +1,11 @@
+<map id="Gra::play" name="Gra::play">
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,80,159"/>
+<area shape="rect" id="node2" href="$class_silnik.html#a84485ec74797ac13d90afff41146d10e" title=" " alt="" coords="144,56,249,83"/>
+<area shape="rect" id="node7" href="$class_silnik.html#a75d6f7c14074afcffa90dd4a6bc2e516" title=" " alt="" coords="128,107,265,133"/>
+<area shape="rect" id="node8" href="$class_silnik.html#aa8a3bf4d4d3d0354c0d9266edea43a60" title=" " alt="" coords="157,157,236,184"/>
+<area shape="rect" id="node9" href="$class_gra.html#a0e2810ee063f2f4be18f1c32d758a596" title=" " alt="" coords="157,208,236,235"/>
+<area shape="rect" id="node3" href="$class_tablica.html#a91e9282d3dd9a1b3cd9f9a1e1e86d863" title=" " alt="" coords="313,5,456,32"/>
+<area shape="rect" id="node4" href="$class_tablica.html#ac6c27ef31f4ef73e2df266032f7df96a" title=" " alt="" coords="331,56,438,83"/>
+<area shape="rect" id="node5" href="$class_tablica.html#afad4d6411fdb640038d0d5c20ac01275" title=" " alt="" coords="330,107,439,133"/>
+<area shape="rect" id="node6" href="$class_tablica.html#a9224857c45178734cef1e2423796af1c" title=" " alt="" coords="314,157,456,184"/>
+</map>
